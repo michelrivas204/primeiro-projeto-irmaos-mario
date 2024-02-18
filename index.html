@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="mascara-formulario" onclick="mascarad()"></div>
+
+
+    <div class="cabeza-mario">
+        <img src="./img/logo-header.png" alt="logo-cabeza">
+        <a>Home</a>
+        <a> Nossos Serviçio</a >
+        <a> Fale Conosco</a>
+    </div>
+
+    <div class="caja-contenido">
+
+        <div class="caja-texto">
+
+            <img src="img/logo.png" class="logo-mario-luigi">
+
+
+            <p> Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!</p>
+
+            <p> Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi! </p>
+
+            <button onclick="clico()">ENTRE EM CONTATO</button>
+
+        </div>
+
+        <div class="caja-video">
+            <video src="./img/video.mp4" autoplay muted loop></video>
+            <div class="mascara"> </div>
+        </div>
+       
+
+        <div class="caja--mario-luigi">
+
+            <img src="./img/mario.png" class="img-mario-luigi">
+
+        </div>
+
+    </div>
+
+    <a href="https://wa.link/xy4eaa" alt="link-del whapshap">
+        <img src="./img/whatsapp.png" alt="logo-whaps" class="whassapt">
+    </a>
+
+    <form 
+       action="https://formcarry.com/s/RdGTweeRqxy"
+       method="POST"
+       enctype="multipart/form-data"
+
+        class="formulario-fale-conosco">
+
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu Telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite Seu Problema Aqui..."name="duvida"></textarea>
+        <button type="submit">Pedir Orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
